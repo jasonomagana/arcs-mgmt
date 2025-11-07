@@ -424,6 +424,7 @@ img {
     padding: 12rem 0 8rem;
     background: #111 url('../images/arcsTeam.png') center center/cover no-repeat;
     color: #fff;
+    border-bottom: 4px solid var(--secondary-color);
 }
 
 
@@ -448,7 +449,7 @@ img {
 /* Values */
 .values {
     padding: 4rem 2rem 3rem;
-    border-top: 4px solid var(--secondary-color);
+    border-top: 2px solid var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
 }
 
