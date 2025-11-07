@@ -986,6 +986,12 @@ img {
     }
 }
 
+@media(max-width: 360px) { 
+    .locations-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media(max-width: 344px) {
     .locations-grid{
         grid-template-columns: 1fr;
