@@ -120,7 +120,7 @@ img {
     flex-direction: column;
     gap: 5rem;
     font-size: 1.2rem;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
 }
 
 .navbar .mobile-menu-list a {
