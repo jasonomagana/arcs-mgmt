@@ -295,10 +295,9 @@ img {
 
 /* Careers */
 .careers {
-    padding: 3rem 2rem 1rem;
+    padding: 3rem 2rem 2rem;
     border-top: 2px solid var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-    background: var(--primary-color);
     color: #fff;
 }
 
@@ -308,15 +307,23 @@ img {
 
 .careers .container-flex {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: start;
-    gap: 2.5rem;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.careers .container-item img {
+    border-radius: 50% 70%;
 }
 
 .careers .container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: left;
+    color: #111;
+    padding: 0 3rem;
 }
 
 .careers .container-item h2{
@@ -329,6 +336,7 @@ img {
 
 .careers .container-item p {
     padding: 0.5rem;
+    text-align: left;
 }
 
 .careers .container-item .icons {
@@ -359,9 +367,9 @@ img {
 }
 
 .careers .container-item .btn-primary:hover {
-    background: transparent;
+    background: var(--primary-color);
     color: #fff;
-    border: 2px solid #fff;
+    border: 2px solid var(--secondary-color);
 }
 
 .careers .container-item span {
@@ -370,13 +378,87 @@ img {
     font-size: 17px;
 } 
 
-.careers .container-item:nth-of-type(2) p:nth-of-type(2) {
-    padding-top: 1rem;
+.employees {
+    padding: 4rem 3rem 2rem;
+    border-bottom: 2px solid var(--primary-color);
 }
 
-.careers .container-item:nth-of-type(3) p:nth-of-type(2) {
-    margin-bottom: 2.7rem;
+.employees .employees-heading {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
 }
+
+.employees .employees-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    justify-items: center;
+    align-items: start;
+}
+
+.employees .employees-grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.employees .employees-grid-item h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: #f4f4f4;
+}
+
+.employees .employees-grid-item p:nth-of-type(2) {
+    margin-bottom: 1.5rem;
+}
+
+.employees .employees-grid-item .btn {
+    display: block;
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.employees .employees-grid-item .btn:hover {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.employees .employees-grid-item:nth-of-type(1) p:nth-of-type(2) {
+    margin-bottom: 15.9rem;
+}
+
+.employees .employees-grid-item:nth-of-type(2) p:nth-of-type(2) {
+    margin-bottom: 15.9rem;
+}
+
+.employees .employees-grid-item:nth-of-type(3) p:nth-of-type(2) {
+    margin-bottom: 9.5rem;
+}
+
+.employees .employees-grid-item:nth-of-type(6) p:nth-of-type(2) {
+    margin-bottom: 9.44rem;
+}
+
+.employees .employees-grid-item:nth-of-type(7) p:nth-of-type(2) {
+    margin-bottom: 6.2rem;
+}
+
+.employees .employees-grid-item:nth-of-type(8) p:nth-of-type(2) {
+    margin-bottom: 9.3rem;
+}
+
+/* Footer */
 
 .footer {
     padding: 3rem 2rem 2rem;
@@ -570,7 +652,7 @@ img {
 
 .resources-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 2rem;
 }
@@ -615,27 +697,11 @@ img {
 }
 
 .resources .resources-grid-item:nth-of-type(2) p:nth-of-type(2) {
-    margin-bottom: 5.8rem;
+    margin-bottom: 2.45rem;
 }
 
 .resources .resources-grid-item:nth-of-type(3) p:nth-of-type(2) {
-    margin-bottom: 13.8rem;
-}
-
-.resources .resources-grid-item:nth-of-type(4) p:nth-of-type(2) {
-    margin-bottom: 10.5rem;
-}
-
-.resources .resources-grid-item:nth-of-type(5) p:nth-of-type(2) {
-    margin-bottom: 5.8rem;
-}
-
-.resources .resources-grid-item:nth-of-type(6) p:nth-of-type(2) {
-    margin-bottom: 2.6rem;
-}
-
-.resources .resources-grid-item:nth-of-type(7) p:nth-of-type(2) {
-    margin-bottom: 4.2rem;
+    margin-bottom: 2.35rem;
 }
 
 /* Contact */
@@ -723,6 +789,7 @@ img {
     .locations-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
 }
 
  @media (min-height: 1024px) and (orientation: landscape) {
@@ -759,14 +826,22 @@ img {
         font-size: 1.1rem;
     }
 
-    .locations .card-item {
-        width: 240px;
-        height: 240px;
+    .card-item {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card-item h4 {
+        font-size: 1.1rem;
     }
 
     .locations-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .employees .employees-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
     }
 
     .inner-header {
@@ -791,7 +866,26 @@ img {
     }
 
     .resources-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 870px) {
+    .navbar {
+        padding-top: 0 1rem;
+    }
+    
+    .navbar .main-menu-items {
+        display: none;
+    }
+    
+    .navbar .mobile-menu {
+        display: block;
+    }
+    
+    .navbar .mobile-menu-toggle {
+        display: block;
+        padding: 1rem;
     }
 }
 
@@ -851,6 +945,19 @@ img {
 
     .careers .container-flex {
         grid-template-columns: 1fr;
+    }
+
+    .employees .employees-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .employees .employees-grid-item:nth-of-type(1) p:nth-of-type(2),
+    .employees .employees-grid-item:nth-of-type(2) p:nth-of-type(2),
+    .employees .employees-grid-item:nth-of-type(3) p:nth-of-type(2),
+    .employees .employees-grid-item:nth-of-type(6) p:nth-of-type(2),
+    .employees .employees-grid-item:nth-of-type(7) p:nth-of-type(2),
+    .employees .employees-grid-item:nth-of-type(8) p:nth-of-type(2) {
+        margin-bottom: 1.5rem;
     }
 
     .footer {
