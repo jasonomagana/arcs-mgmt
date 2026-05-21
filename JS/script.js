@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     initMobileDropdown();
     initLanguageToggle();
     translatePage();
+    initScrollNavbar();
     renderAnnouncement();
     renderLocations();
     renderEmployeeResources();
-    initScrollNavbar();
     initScrollReveal();
 });
 
