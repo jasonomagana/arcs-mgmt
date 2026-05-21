@@ -624,16 +624,17 @@ const locations = [
 ];
 
 function renderLocations() {
-    const locationsGrid = document.querySelector('#locations-grid');
-    locationsGrid.innerHTML = '';
+     const locationsGrid = document.querySelector('#locations-grid');
 
     if (!locationsGrid) {
         return;
     }
 
+    locationsGrid.innerHTML = '';
+
     locations.forEach((location, index) => {
         locationsGrid.appendChild(createLocationCard(location, index));
-    })
+    });
 }
 
 function createLocationCard(location, index) {
