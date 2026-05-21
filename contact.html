@@ -14,96 +14,166 @@
     <title>ARCS MGMT - Contact</title>
 </head>
 <body>
-    <nav class="navbar"   role="navigation" aria-label="Navigation Menu">
+    <nav class="navbar" role="navigation" aria-label="Navigation Menu">
         <div class="container-lg navbar-flex">
             <a href="index.html">
                 <img class="logo" src="/images/arcs-logo-transparent.png" alt="Arcs Management">
             </a>
             <div class="main-menu-items">
                 <ul class="main-menu-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#locations">Locations</a></li>
-                    <li><a href="index.html#careers">Careers</a></li>
-                    <li><a href="index.html#employees">Employees</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a data-i18n="nav.home" href="index.html">Home</a></li>
+                    <li><a data-i18n="nav.locations" href="index.html#locations">Locations</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#careers">
+                         <span data-i18n="nav.resources">Resources</span>
+                            <i class="fa-solid fa-angle-down drop"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a data-i18n="nav.careers" href="index.html#careers">Careers</a></li>
+                            <li><a data-i18n="nav.employees" href="index.html#employees">Employees</a></li>
+                        </ul>
+                    </li>
+                    <li><a data-i18n="nav.about" href="about.html">About Us</a></li>
+                    <li><a data-i18n="nav.contact" href="contact.html">Contact</a></li>
+                    <li>
+                       <a class="language-toggle" href="#"> <i class="fa-solid fa-globe"></i> EN / ES</a>
+                    </li>
+                </ul>
             </div>
             <!-- Mobile Menu -->
              <div class="mobile-menu">
                 <div class="mobile-menu-toggle" role="button" aria-expanded="false" aria-controls="mobile-menu-items"
                  aria-label="Open Mobile Menu" tabindex="0">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-bars fa-solid menu-open-icon"></i>
+                    <i class="fa-solid fa-xmark menu-close-icon"></i>
                 </div>
                 <div class="mobile-menu-items">
                     <ul class="mobile-menu-list">
-                    <li><a href="index.html">Home</a></li>
-                      <li><a href="index.html#locations">Locations</a></li>
-                    <li><a href="index.html#careers">Careers</a></li>
-                    <li><a href="index.html#employees">Employees</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                    <li><a data-i18n="nav.home" href="index.html">Home</a></li>
+                    <li><a data-i18n="nav.locations" href="index.html#locations">Locations</a></li>
+                    <li class="mobile-dropdown">
+                        <a href="#" class="mobile-dropdown-toggle">
+                         <span data-i18n="nav.resources">Resources</span>
+                            <i class="fa-solid fa-angle-down drop"></i>
+                        </a>
+                        <ul class="mobile-dropdown-menu">
+                            <li><a data-i18n="nav.careers" href="index.html#careers">Careers</a></li>
+                            <li><a data-i18n="nav.employees" href="index.html#employees">Employees</a></li>
+                        </ul>
+                    </li>
+                    <li><a data-i18n="nav.about" href="about.html">About Us</a></li>
+                    <li><a data-i18n="nav.contact" href="contact.html">Contact</a></li>
+                    <li>
+                       <a class="language-toggle" href="#"> <i class="fa-solid fa-globe"></i> EN / ES</a>
+                    </li>
+                </ul>
                 </div>
              </div>
         </div>
     </nav>
 
-    <section class="inner-header-2">
-        <div class="container form-heading">
-            <h1>Contact Us</h1>
-            <p>Please note that we will respond within two business days.</p>
+<section class="contact-page">
+    <div class="container">
+        <div class="contact-layout">
+            <div class="contact-info">
+                <p class="contact-eyebrow" data-i18n="contact.hero.eyebrow">Contact ARCS</p>
+                <h1 class="contact-heading" data-i18n="contact.hero.heading">
+                    We’re Here To Help
+                </h1>
+                <p class="contact-description" data-i18n="contact.hero.description">
+                    Have a question for our office? Send us a message and our team will respond within two business days.
+                </p>
+                <div class="contact-details">
+                    <p>1060 E Washington St. Suite 100</p>
+                    <p>Colton, CA 92324</p>
+                    <p>Tel: 951-929-9934</p>
+                    <p data-i18n="contact.hero.officeHours">Office Hours: Mon - Thurs (9AM - 3PM)</p>
+                </div>
+            </div>
+            <div class="contact-form-card">
+                <form name="contact" netlify>
+                    <div class="form-group">
+                        <label for="name" class="visually-hidden" data-i18n="contact.form.firstNameLabel">First Name</label>
+                        <input type="text" name="name" id="name" data-i18n-placeholder="contact.form.firstNamePlaceholder" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name" class="visually-hidden" data-i18n="contact.form.lastNameLabel">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" data-i18n-placeholder="contact.form.lastNamePlaceholder" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="visually-hidden" data-i18n="contact.form.emailLabel">Email</label>
+                        <input type="email" name="email" id="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="Enter Email" autocomplete="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="visually-hidden" data-i18n="contact.form.subjectLabel">Subject</label>
+                        <input type="text" name="subject" id="subject" data-i18n-placeholder="contact.form.subjectPlaceholder" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="visually-hidden" data-i18n="contact.form.messageLabel">Message</label>
+                        <textarea name="message" id="message" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit" data-i18n="contact.form.submit">
+                            Submit Message
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="container form-content">
-        <form name="contact" netlify>
-            <div class="form-group">
-                <label for="name" class="visually-hidden">First Name</label>
-                <input type="text" name="name" id="name" placeholder="First Name" required>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container-lg">
+        <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <img src="images/arcs logo.png" alt="ARCS Management">
+                <p class="footer-tagline" data-i18n="footer.tagline">
+                    Serving and Delivering Excellence Across Southern California.
+                </p>
             </div>
-            <div class="form-group">
-                <label for="last-name" class="visually-hidden">Last Name</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+            <!-- Contact -->
+            <div class="footer-contact">
+                <h3 data-i18n="footer.officeHeading">Office Location</h3>
+                <p>1060 E Washington St. Suite 100</p>
+                <p>Colton, CA 92324</p>
+                <p>Tel: 951-929-9934</p>
+                <p data-i18n="footer.officeHours">Office Hours: Mon - Thurs (9AM - 3PM)</p>
             </div>
-            <div class="form-group">
-                <label for="email" class="visually-hidden">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter Email" autocomplete="email" required>
+            <!-- Quick Links -->
+            <div class="footer-quick-links">
+                <h3 data-i18n="footer.quickLinks">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a data-i18n="footer.home" href="index.html">Home</a></li>
+                    <li><a data-i18n="footer.locations" href="index.html#locations">Locations</a></li>
+                    <li><a data-i18n="footer.careers" href="index.html#careers">Careers</a></li>
+                    <li><a data-i18n="footer.employees" href="index.html#employees">Employees</a></li>
+                    <li><a data-i18n="footer.about" href="about.html">About Us</a></li>
+                    <li><a data-i18n="footer.contact" href="contact.html">Contact</a></li>
+                </ul>
             </div>
-            <div class="form-group">
-                <label for="subject" class="visually-hidden">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            <!-- Social -->
+            <div class="footer-socials">
+                <h3 data-i18n="footer.follow">Follow Us</h3>
+                <a href="https://www.instagram.com/arcsmcds/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                    @arcsmcds
+                </a>
             </div>
-            <div class="form-group">
-                <label for="message" class="visually-hidden">Message</label>
-                <textarea name="message" id="message" placeholder="Message" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="submit">Submit</button>
-            </div>
-        </form>
         </div>
-    </section>
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+            <p data-i18n="footer.copyright">
+                © 2026 ARCS Restaurant Management. All Rights Reserved.
+            </p>
+            <p data-i18n="footer.credit">
+                Designed & Developed by Magaña Techforce
+            </p>
+        </div>
+    </div>
+</footer>
 
-
-    <footer class="footer">
-            <div class="container footer-flex">
-                <div class="footer-content">
-                    <h4>1060 E Washington St. Suite 100</h4>
-                    <p>Colton, CA. 92324</p>
-                    <p>951-929-9934</p>
-                    <p>Office hours: M-TH (9am-3pm)</p>
-                </div>
-                <div class="footer-content">
-                    <img src="/images/arcs logo.png" alt="ARCS Management Logo">
-                </div>
-                <div class="footer-content">
-                    <h4>Connect with us on social media</h4>
-                    <p> <a href="https://www.instagram.com/arcsmcds/" target="_blank" aria-label="Follow Us On Instagram">
-                        <i class="fa-brands fa-instagram"></i></a> arcsmcd</p>
-                     <p> <a href="https://www.facebook.com/groups/157364194359288" target="_blank" aria-label="Join Us On Facebook">
-                        <i class="fa-brands fa-facebook"></i></a> ARCS</p>
-                </div>
-            </div>
-        </footer>
-
-    <script src="JS/script.js"></script>
+<script src="/JS/script.js"></script>
 </body>
 </html>

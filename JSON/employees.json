@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Mize Site",
+        "description": 
+            {
+                "en": "Access your pay stubs and W-2s on Mize Site. Have your User ID and password ready, then click the button below to continue.",
+                "es": "Accede a tus talones de pago y formularios W-2 en Mize Site. Ten a la mano tu ID de usuario y contraseña, luego haz clic en el botón de abajo para continuar."
+            },
+        "buttonText": "Mize Site",
+        "buttonLink": "https://secure5.entertimeonline.com/ta/72370ARC.login?rnd=ZCG&%40rtm=1#home"
+    },
+    {
+        "id": 2,
+        "title": "CAFCU Credit Union",
+        "description": 
+            {
+                "en": "CAFCU Credit Union provides McDonald’s employees with access to convenient banking services, savings accounts, financial tools, and resources designed to support their financial growth and everyday needs.",
+                "es": "CAFCU Credit Union ofrece a los empleados de McDonald’s acceso a servicios bancarios prácticos, cuentas de ahorro, herramientas financieras y recursos diseñados para apoyar su crecimiento financiero y satisfacer sus necesidades cotidianas."
+            },
+        "buttonText": "CAFCU",
+        "buttonLink": "https://www.alerofinancial.org/sponsor-companies/mcdonald"
+    },
+    {
+        "id": 3,
+        "title": "Direct2Care",
+        "description": 
+            {
+                "en": "Direct2Care connects you with health and wellness resources for McDonald’s employees. Access the portal to learn more about available services, download the app, and create your account today.",
+                "es": "Direct2Care te conecta con recursos de salud y bienestar para los empleados de McDonald’s. Accede al portal para obtener más información sobre los servicios disponibles, descargar la aplicación y crear tu cuenta hoy mismo."
+            },
+        "buttonText": "Direct2Care",
+        "buttonLink": "https://www.direct2care.com/"
+    },
+    {
+        "id": 4,
+        "title": "Archways",
+        "description": 
+            {
+                "en": "To learn how to earn your high school diploma, get money for college, or schedule a college counseling session, explore Archways to Opportunity — McDonald’s education program that helps you continue learning, grow your skills, and build a brighter future.",
+                "es": "Para aprender cómo obtener tu diploma de preparatoria, recibir ayuda para la universidad o programar una sesión de asesoría universitaria, explora Archways to Opportunity, el programa educativo de McDonald’s que te ayuda a seguir aprendiendo, desarrollar tus habilidades y construir un futuro mejor."
+            },
+        "buttonText": "Archways",
+        "buttonLink": "https://www.archwaystoopportunity.com/s"
+    },
+    {
+        "id": 5,
+        "title": "Colorado Tech University",
+        "description": 
+            {
+                "en": "Earn an Associate or Bachelor’s degree from Colorado Technical University — offered 100% free to eligible McDonald’s employees. Advance your education, build new skills, and grow your career.",
+                "es": "Obtén un título de técnico superior o de licenciatura en la Universidad Técnica de Colorado, que se ofrece de forma totalmente gratuita a los empleados de McDonald’s que cumplan los requisitos. Amplía tu formación, adquiere nuevas habilidades y haz crecer tu carrera profesional."
+            },
+        "buttonText": "Colorado Tech University",
+        "buttonLink": "https://www.coloradotech.edu/ptnrs/5250/mcdonalds-restaurant#"
+    },
+    {
+        "id": 6,
+        "title": "McD Perks",
+        "description": 
+            {
+                "en": "Unlock exclusive discounts at your favorite national and local stores! Sign up today and start enjoying special savings just for McDonald’s employees.",
+                "es": "¡Accede a descuentos exclusivos en tus tiendas favoritas, tanto nacionales como locales! Regístrate hoy y comienza a disfrutar de ahorros especiales solo para empleados de McDonald’s."
+            },
+        "buttonText": "McD Perks",
+        "buttonLink": "https://www.mcdperks.com/"
+    },
+    {
+        "id": 7,
+        "title": "McD App",
+        "description": 
+            {
+                "en": "Did you know you can get 30% off your meal at any participating McDonald’s through the McDonald’s app? Enjoy your employee meal discount wherever you go!",
+                "es": "¿Sabías que puedes obtener un 30% de descuento en tu comida en cualquier McDonald’s participante a través de la aplicación de McDonald’s? ¡Disfruta tu descuento de empleado dondequiera que vayas!"
+            },
+        "buttonText": "McD App",
+        "buttonLink": "https://www.mcdonalds.com/us/en-us/download-app.html"
+    },
+    {
+        "id": 8,
+        "title": "Zay Zoon",
+        "description": 
+            {
+                "en": "Get immediate access to your pay with ZayZoon. Access a portion of your earned wages before payday — giving you flexibility and control over your finances.",
+                "es": "Obtén acceso inmediato a tu pago con ZayZoon. Accede a una parte de tu salario antes del día de pago, brindándote flexibilidad y control sobre tus finanzas."
+            },
+        "buttonText": "Zay Zoon",
+        "buttonLink": "https://www.zayzoon.com/employers"
+    }
+]
