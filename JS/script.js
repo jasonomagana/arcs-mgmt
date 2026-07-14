@@ -105,14 +105,14 @@ const translations = {
             title: 'Growing teams. Serving communities. Building better restaurants.',
             locationsButton: 'View Locations',
             careersButton: 'Careers',
-            cardOne: '17 Restaurants',
+            cardOne: '18 Restaurants & Growing',
             cardTwo: 'Proudly Serving 2 Counties',
             cardThree: 'Team Growth'
             },
             locations: {
             eyebrow: 'Our Restaurants',
             heading: 'Proudly serving Riverside & San Bernardino',
-            description: 'ARCS Restaurant Management proudly operates 17 restaurants across Riverside and San Bernardino. Our teams are focused on service, speed, quality, and operational excellence — building stronger restaurants and better guest experiences in every community we serve.'
+            description: 'ARCS Restaurant Management proudly operates 18 restaurants across Riverside and San Bernardino. Our teams are focused on service, speed, quality, and operational excellence — building stronger restaurants and better guest experiences in every community we serve.'
             },
             careers: {
             eyebrow: 'Career Opportunities',
@@ -232,14 +232,14 @@ const translations = {
             title: 'Creciendo equipos. Mejorando restaurantes.',
             locationsButton: 'Ver Ubicaciones',
             careersButton: 'Empleos',
-            cardOne: '17 Restaurantes',
+            cardOne: '18 Restaurantes y Creciendo',
             cardTwo: 'Orgullosamente Sirviendo 2 Condados',
             cardThree: 'Crecimiento del Equipo'
             },
             locations: {
             eyebrow: 'Nuestros Restaurantes',
             heading: 'Orgullosos de servir a los condados de Riverside y San Bernardino',
-            description: 'ARCS Restaurant Management se enorgullece de operar 17 restaurantes en Riverside y San Bernardino. Nuestros equipos se centran en el servicio, la rapidez, la calidad y la excelencia operativa, con el objetivo de fortalecer nuestros restaurantes y ofrecer una mejor experiencia a los clientes en cada comunidad en la que prestamos servicio.'
+            description: 'ARCS Restaurant Management se enorgullece de operar 18 restaurantes en Riverside y San Bernardino. Nuestros equipos se centran en el servicio, la rapidez, la calidad y la excelencia operativa, con el objetivo de fortalecer nuestros restaurantes y ofrecer una mejor experiencia a los clientes en cada comunidad en la que prestamos servicio.'
             },
             careers: {
             eyebrow: 'Oportunidades Profesionales',
@@ -400,8 +400,8 @@ const announcements = [
             es: 'Crecimiento Comunitario'
         },
         title: {
-            en: '17+ Restaurants Across Riverside & San Bernardino',
-            es: 'Más de 17 restaurantes en Riverside y San Bernardino'
+            en: '18 Restaurants Across Riverside & San Bernardino',
+            es: '18 restaurantes en Riverside y San Bernardino'
         },
         message: {
             en: 'ARCS Restaurant Management continues to grow across Southern California while serving local communities with operational excellence and strong team leadership.',
