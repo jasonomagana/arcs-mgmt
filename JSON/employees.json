@@ -12,13 +12,13 @@
     },
     {
         "id": 2,
-        "title": "CAFCU Credit Union",
+        "title": "Alero Financial Credit Union",
         "description": 
             {
-                "en": "CAFCU Credit Union provides McDonald’s employees with access to convenient banking services, savings accounts, financial tools, and resources designed to support their financial growth and everyday needs.",
-                "es": "CAFCU Credit Union ofrece a los empleados de McDonald’s acceso a servicios bancarios prácticos, cuentas de ahorro, herramientas financieras y recursos diseñados para apoyar su crecimiento financiero y satisfacer sus necesidades cotidianas."
+                "en": "Alero Financial Credit Union provides McDonald’s employees with access to convenient banking services, savings options, financial tools, and resources designed to support their financial well-being and everyday needs.",
+                "es": "Alero Financial Credit Union ofrece a los empleados de McDonald’s acceso a servicios bancarios convenientes, opciones de ahorro, herramientas financieras y recursos diseñados para apoyar su bienestar financiero y sus necesidades cotidianas."
             },
-        "buttonText": "CAFCU",
+        "buttonText": "Alero",
         "buttonLink": "https://www.alerofinancial.org/sponsor-companies/mcdonald"
     },
     {

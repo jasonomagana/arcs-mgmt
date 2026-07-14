@@ -378,20 +378,20 @@ function translatePage() {
 const announcements = [
     {
         badge: {
-            en: 'New Store Opening',
-            es: 'Nueva Apertura'
+            en: 'Now Open',
+            es: 'Ya Abrimos'
         },
         title: {
-            en: 'A New ARCS Location Is Coming Soon',
-            es: 'Una Nueva Ubicación de ARCS Abrirá Pronto'
+            en: 'Our New San Jacinto Location Is Now Open',
+            es: 'Nuestra Nueva Ubicación en San Jacinto Ya Está Abierta'
         },
         message: {
-            en: 'We are excited to continue growing our team and serving more guests in our community.',
-            es: 'Estamos emocionados de seguir creciendo nuestro equipo y sirviendo a más clientes en nuestra comunidad.'
+            en: 'We are excited to continue growing our team and serving more guests in the San Jacinto community.',
+            es: 'Estamos emocionados de seguir creciendo nuestro equipo y atendiendo a más clientes en la comunidad de San Jacinto.'
         },
         location: {
-            en: 'Opening Soon • San Jacinto, CA',
-            es: 'Próximamente • San Jacinto, CA'
+            en: 'Now Open • San Jacinto, CA',
+            es: 'Ya Abrimos • San Jacinto, CA'
         }
     },
     {
@@ -585,6 +585,13 @@ const locations = [
         city: 'San Jacinto',
         state: 'CA',
         mapLink: 'https://maps.app.goo.gl/emAgTUdn91HCA3Fq7'
+    },
+    {
+        name: 'San Jacinto',
+        address: '528 W Ramona Expy',
+        city: 'San Jacinto',
+        state: 'CA',
+        mapLink: 'https://maps.app.goo.gl/aUg784MrvX5327fs6'
     },
     {
         name: 'Hemet',
